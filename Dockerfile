@@ -1,6 +1,6 @@
 #node docker image
 
-FROM 20-alpine3.18
+FROM node:18-buster-slim
 
 # Create app directory
 WORKDIR /usr/src/app
