@@ -1,6 +1,6 @@
 #node docker image
 
-FROM node:12.18.3
+FROM node:12.18.3-alpine3.12
 
 # Create app directory
 WORKDIR /usr/src/app
