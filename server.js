@@ -23,6 +23,6 @@ app.get("/contact", (req, res) => {
 
 
 
-const server = app.listen(process.env.PORT||5000);
+const server = app.listen(process.env.PORT||3000);
 const portNumber = server.address().port;
 console.log(`port: ${portNumber}`);
